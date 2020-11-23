@@ -1,0 +1,43 @@
+#line1 {
+    width: 75px;
+    height: 10px;
+    background-color: black;
+    margin: 10px auto;
+}
+ 
+#Intro {
+    background-image: url("mcu-1-iron-man.jpg");
+    color: aliceblue;
+}
+
+body {
+    margin: 40px;
+    text-align: center;
+    background-color: darkslategray;
+}
+
+.lynx {
+    display: inline;
+    font-family: fantasy;
+    color: goldenrod;
+    background-color: red;
+    padding-bottom: 10px;
+     padding-left: 6px;
+     padding-right: 6px;
+     padding-top: 10px;
+}
+
+.lynx:hover {
+    background-color: silver;
+    font-family: 'Righteous', cursive;
+}
+.menu{
+    position: fixed;
+    list-style: none;
+    width: 100%;
+    margin-top: 0 px;
+    top: 0 px;
+}
+html{
+    scroll-behavior: smooth;
+}
