@@ -31,12 +31,15 @@ body {
     background-color: silver;
     font-family: 'Righteous', cursive;
 }
-.menu{
-    position: fixed;
-    list-style: none;
-    width: 100%;
-    margin-top: 0 px;
-    top: 0 px;
+.my_nav_bar{
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.navbar-inverse{
+    background-color: black;
+    color: red;
+    
 }
 html{
     scroll-behavior: smooth;

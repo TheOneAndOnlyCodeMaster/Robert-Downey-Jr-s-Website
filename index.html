@@ -7,21 +7,39 @@
     <title>Robert Downey Jr</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
     <script src="main.js"></script>
 
-    <section id="Intro">
-        <center>
-            <ul class="menu">
-                <li class="lynx"><a href="#descripton">Home</a></li>
-                <li class="lynx"><a href="#bio">Bio</a></li>
-                <li class="lynx"><a href="#My movies/work">My movies/work</a></li>
-                <li class="lynx"><a href="#contact"> Social Media</a></li>
-            </ul>
-        </center>
+    <nav class="navbar-inverse my_nav_bar">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
 
+            </button>
+            <a class="navbar-brand" href="#myNavbar">HOME</a>
+        </div>
+        <center>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="lynx"><a href="#descripton">Home</a></li>
+                    <li class="lynx"><a href="#bio">Bio</a></li>
+                    <li class="lynx"><a href="#My movies/work">My movies/work</a></li>
+                    <li class="lynx"><a href="#contact"> Social Media</a></li>
+                </ul>
+            </div>
+        </center>
+    </nav>
+    <section id="Intro">
         <div id="line1"></div>
         <img src="Robert%20Downey%20Jr..jpg">
         <div id="line1"></div>
@@ -33,7 +51,11 @@
         <h2> Here's some information about me that obsessed fans probably already know</h2>
 
         <h6> source: www.biography.com </h6>
+
     </section>
+
+
+
     <section id="descripton">
         <br>
         <h3> Robert Downey Jr. is an American actor known for roles in a wide variety of films, including 'Iron Man,' 'The Avengers, 'Sherlock Holmes' and 'Chaplin.'
@@ -43,6 +65,9 @@
         <br>
         <p> </p>
     </section>
+
+
+
     <section id="bio">
         <h1>BIO</h1>
         <img id="imageforbio" src="Picture%20for%20bio.jpg" />
@@ -55,6 +80,9 @@
         <iframe width="900" height="1000" src="https://en.wikipedia.org/wiki/Robert_Downey_Jr." frameborder="10"></iframe>
 
     </section>
+
+
+
     <section id="My movies/work">
         <h1>My Movies/Work</h1>
         <div>
@@ -74,19 +102,36 @@
             </div>
         </div>
     </section>
+
+
+
     <section id="contact">
-        <div class="contax_lenses">
+        <div class="contact_1 col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <a href="mailto:mkcodemaster@gmail.com?Subject=Hello"> <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>mkcodemaster@gmail.com</h3> </a>
-            
+
             <br>
             <br>
-            
+
             <a href="#">
-            <i class="fa fa-facebook" ></i>&nbsp;&nbsp;<h3>My mommy's facebook account</h3>
-                
+                <i class="fa fa-facebook"></i>&nbsp;&nbsp;<h3>My mommy's facebook account</h3>
+
             </a>
         </div>
+        <div class="contact_2 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <form>
+                <span>Name: </span> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="name" required>
+                <br>
+                <br>
+                <span>Comment: </span> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" name="comment" required>
+                <br>
+                <br>
+                <input type="submit" value="submit" class="btn btn-success">
+            </form>
+        </div>
     </section>
-
+<script async src="https://drv.tw/inc/wd.js"></script>
 </body>
+
 </html>
